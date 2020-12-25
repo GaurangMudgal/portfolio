@@ -158,10 +158,21 @@ body {
 }
 
 .conOpts {
-	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 0 auto;
 }
 
-#mobNo, #email, #twitter, #instagram, #email a, #twitter a, #instagram a {
+#mobNo, #email, #twitter, #instagram {
+	font-family: 'Montserrat';
+	font-size: 2rem;
+	color: #EDF5E1;
+	align-self
+}
+
+#email a, #twitter a, #instagram a {
 	font-family: 'Montserrat';
 	font-size: 2rem;
 	color: #EDF5E1;
