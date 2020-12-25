@@ -163,13 +163,14 @@ body {
 	flex-wrap: wrap;
 	width: 80%;
 	margin: 0 auto;
+	justify-content: space-between;
 }
 
 #mobNo, #email, #twitter, #instagram {
 	font-family: 'Montserrat';
 	font-size: 2rem;
 	color: #EDF5E1;
-	align-self
+	align-self: center;
 }
 
 #email a, #twitter a, #instagram a {
