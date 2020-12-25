@@ -158,19 +158,13 @@ body {
 }
 
 .conOpts {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 60%;
-	margin: 0 auto;
-	justify-content: space-around;
+	text-align: center;
 }
 
 #mobNo, #email, #twitter, #instagram {
 	font-family: 'Montserrat';
 	font-size: 2rem;
 	color: #EDF5E1;
-	align-self: center;
 }
 
 #email a, #twitter a, #instagram a {
