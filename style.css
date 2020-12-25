@@ -91,6 +91,7 @@ body {
 	left: 0;
 	flex-wrap: wrap;
 	align-self: flex-start;
+	padding: 1rem;
 }
 
 .desc {
@@ -119,6 +120,7 @@ body {
 	border-radius: 3rem;
 	flex-wrap: wrap;
 	align-self: flex-end;
+	padding: 1rem;
 }
 
 .serviceOffered {
