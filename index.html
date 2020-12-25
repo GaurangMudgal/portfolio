@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+		html {
+			position: relative;
+			min-width: 100%;
+		}
+
+		nav {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			width: 40rem;
+		}
+
+		nav a {
+			text-decoration: none;
+			color: #05386B;
+			font-size: 2rem;
+			font-family: 'Montserrat';
+			padding: 1rem;
+			clip-path: polygon(5% 10%, 90% 5%, 100% 100%, 0% 90%);
+		}
+
+		nav a:hover {
+			background-color: #05386B;
+			color: #EDF5E1;
+		}
+
+		body {
+			background-color: #5CDB95;
+		}
+
+		#about {
+			color: #EDF5E1;
+			font-family: 'Montserrat';
+			font-size: 2rem;
+			text-align: center;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			width: 50rem;
+			margin: 5rem auto;
+			flex-wrap: wrap;
+		}
+
+		#my_img {
+			border-radius: 50%;
+			width: 20rem;
+			height: 20rem;
+		}
+
+		#services, #contact {
+			margin-top: 7rem;
+		}
+
+		.headings {
+			color: #EDF5E1;
+			font-family: 'Montserrat';
+			font-size: 2rem;
+			text-align: center;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		.sideLine {
+			content: "";
+			width: 4rem;
+			height: .3rem;
+			background-color: white;
+			align-self: center;
+			margin: 0 1rem;
+			display: inline-block;
+			border-radius: .3rem;
+		}
+
+		.projects a {
+			text-decoration: none;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.projectLeft {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 50rem;
+			background-color: #379683;
+			border-radius: 3rem;
+			margin-bottom: 3rem;
+			left: 0;
+			flex-wrap: wrap;
+			align-self: flex-start;
+		}
+
+		.desc {
+			align-self: center;
+			font-family: 'Montserrat';
+			color: #EDF5E1;
+			font-size: 1.3rem;
+			width: 50%;
+		}
+
+		.projName {
+			width: 100%;
+			text-align: center;
+			font-family: 'Montserrat';
+			color: #EDF5E1;
+			font-size: 2rem;
+		}
+
+		.projectRight {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 50rem;
+			background-color: #379683;
+			margin-bottom: 3rem;
+			border-radius: 3rem;
+			flex-wrap: wrap;
+			align-self: flex-end;
+		}
+
+		.serviceOffered {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		.service {
+			margin-top: 3rem;
+			padding: 3rem;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+
+		.service img {
+			border-radius: 50%;
+			width: 20rem;
+			height: 20rem;
+			align-self: center;
+		}
+
+		.service:hover {
+			background-color: #379683;
+			border-radius: 5rem;
+		}
+
+		.service p {
+			font-family: 'Montserrat';
+			font-size: 2rem;
+			color: #EDF5E1;
+			text-align: center;
+		}
+
+		.conOpts {
+			display: grid;
+			grid-template-rows: 50% 50%;
+			grid-template-columns: 50% 50%;
+			justify-items: center;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin: 0 auto;
+		}
+
+		#mobNo, #email, #twitter, #instagram, #email a, #twitter a, #instagram a {
+			font-family: 'Montserrat';
+			font-size: 2rem;
+			color: #EDF5E1;
+			text-decoration: none;
+			align-self: center;
+		}
+
+		.footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			margin-bottom: 0;
+			margin-top: 5rem;
+		}
+
+		.top {
+			font-family: 'Montserrat';
+			text-decoration: none;
+			color: #EDF5E1;
+			position: fixed;
+			bottom: 0;
+			margin-bottom: 3.5rem;
+			font-size: 1.3rem;
+			background-color: #05386B;
+			padding: 1rem; 
+			clip-path: polygon(5% 0%, 90% 0%, 100% 100%, 0% 90%);
+		}
+	</style>
+</head>
+<body>
+	<a href="/Users/gaurangmudgal/Desktop/portfolio/portfolio.html#top" class="top">Go to top</a>
+
+	<div id="top">
+		<nav>
+			<a href="#about">About</a>
+			<a href="#projects">Projects</a>
+			<a href="#services">Services</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</div>
+
+	<main style="margin-bottom: 10rem;">
+		<div id="about">
+			<img src="/Users/gaurangmudgal/Desktop/portfolio/me.png" id="my_img">
+			<p style="align-self: center;">Hay there,<br>I'm Gaurang Mudgal<br><br>I'm a Web Developer, YouTuber, Video Editor, and Photographer</p>
+		</div>
+
+		<div id="projects">
+			<div class="headings">
+				<div class="sideLine"></div>
+				<p style="display: inline;">Some of my latest projects</p>
+				<div class="sideLine"></div>
+			</div>
+
+			<div class="projects">
+				<div>
+					<a href="#">
+						<div class="projectLeft">
+							<p class="projName">Project Name</p>
+							<img src="/Users/gaurangmudgal/Desktop/portfolio/book.png" style="width: 50%; height: 100%">
+							<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</a>
+				</div>
+
+				<div>
+					<a href="#">
+						<div class="projectRight">
+							<p class="projName">Project Name</p>
+							<img src="/Users/gaurangmudgal/Desktop/portfolio/book.png" style="width: 50%; height: 100%">
+							<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</a>
+				</div>
+
+				<div>
+					<a href="#">
+						<div class="projectLeft">
+							<p class="projName">Project Name</p>
+							<img src="/Users/gaurangmudgal/Desktop/portfolio/book.png" style="width: 50%; height: 100%">
+							<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="services">
+			<div class="headings">
+				<div class="sideLine"></div>
+					<p style="display: inline; font-family: 'Montserrat'; font-size: 2rem; color: #EDF5E1">My Services</p>
+				<div class="sideLine"></div>
+			</div>
+
+			<div class="serviceOffered">
+				<div class="service">
+					<img src="/Users/gaurangmudgal/Desktop/portfolio/backend.png">
+					<p>Backend Web Development</p>
+				</div>
+
+				<div class="service">
+					<img src="/Users/gaurangmudgal/Desktop/portfolio/frontend.png">
+					<p>Frontend Web Development</p>
+				</div>
+
+				<div class="service">
+					<img src="/Users/gaurangmudgal/Desktop/portfolio/video making.jpg">
+					<p>Video Content Production</p>
+				</div>
+
+				<div class="service">
+					<img src="/Users/gaurangmudgal/Desktop/portfolio/photography.jpg">
+					<p>Photography and Editing</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact">
+			<div class="headings">
+				<div class="sideLine"></div>
+					<p style="display: inline; font-family: 'Montserrat'; font-size: 2rem; color: #EDF5E1">Get in contact</p>
+				<div class="sideLine"></div>
+			</div>
+
+			<div class="conOpts">
+				<p id="mobNo">Mobile Number: +91-9027232734</p>
+				<p id="email">Email: <a href="mailto:gaurangmudgal13@gmail.com" target="_blank">gaurangmudgal13@gmail.com</a></p>
+				<p id="twitter">Twitter: <a href="https://twitter.com/gaurangmudgal13" target="_blank">@gaurangmudgal13</a></p>
+				<p id="instagram">Instagram: <a href="https://www.instagram.com/gaurangmudgal" target="_blank">@gaurangmudgal</a></p>
+			</div>
+		</div>
+	</main>
+
+	<div class="footer">
+		<p style="font-family: 'Montserrat'; color: #EDF5E1; font-size: 1.5rem; text-align: center;">©Gaurang Mudgal 2020</p>
+	</div>
+</body>
+</html>
